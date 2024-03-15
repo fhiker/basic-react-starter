@@ -1,0 +1,41 @@
+.error {
+    color: red;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    background: white;
+    box-shadow:0 0 5px 5px gray;
+    padding: 20px;
+}
+
+.toast {
+    position: relative;
+    top: 0;
+    background: white;
+    box-shadow:0 0 5px 5px gray;
+    padding: 20px;
+}
+
+.toast-error {
+    border: solid red 1px;
+    box-shadow:0 0 5px 5px red;
+}
+
+.toast-warning {
+    border: solid yellow 1px;
+    box-shadow:0 0 5px 5px yellow;
+}
+.toast-notify {
+    border: solid blue 1px;
+    box-shadow:0 0 5px 5px blue;
+}
+.toast-success {
+    border: solid green 1px;
+    box-shadow:0 0 5px 5px green;
+}
+
+.card {
+    padding: 5px
+}
